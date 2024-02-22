@@ -1,0 +1,41 @@
+.parent {
+    display: block;
+    float: left;
+    /* background-color: #333; */
+    overflow: hidden;
+    margin-top: 5px;
+  }
+  .parent div:hover{
+    margin: 10px;
+    padding: 24px 36px;
+    background-color: #DDD;
+    color: black;  
+
+  }
+  
+  .child {
+    margin: 10px;
+    padding: 24px 36px;
+    background-color: #164;
+
+  }
+  .child a{
+    margin: auto;
+    color: #f2f2f2;
+    text-align: center;
+    
+    text-decoration: none;
+    font-size: 20px;
+  }
+  .child a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .child a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  .parent div.active {
+    background-color: #04AA6D;
+    /* color: white; */
+  }
